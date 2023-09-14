@@ -2,6 +2,70 @@
     margin: 0;
     padding: 0;
 }
+/*header section start*/
+.header-title{
+    display: flex;
+    margin-left: 250px;
+}
+.header-title img {
+    width: 130px;
+    height: 53px;
+    margin-top: 20px;
+}
+.header-title h1 {
+    font-size: 45px;
+    margin-top: 20px;
+    padding-left: 12px;
+}
+
+.nav-section {
+    display: flex;
+    height: 100px;
+}
+.main-menu-section {
+    display: flex;
+    margin-left: 450px;
+}
+
+.menu-img-section {
+    display: flex;
+    background-color: #E7E6E9;
+    height: 58px;
+    border-radius: 15px;
+    width: 285px;
+    margin-top: 18px;
+}
+.menu-img-section h3{
+    margin-left: 15px;
+
+}
+.menu-sec ul {
+    list-style: none;
+    display: flex;
+    padding-left: 25px;
+    margin-top: 18px;
+}
+.menu-sec li {
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    padding-right: 10px;
+}
+
+.menu-img-section h3 {
+    text-align: center;
+    padding-top: 19px;
+    padding-left: 5px;
+}
+.menu-img-section img {
+    width: 48px;
+    display: inline;
+    height: 48px;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
 .banner {
     background-image: url(../images/Group14.png);
     width: 100%;
@@ -18,7 +82,7 @@ h2{
     font-weight: 700;
 }
 h1 {
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 700;
     color: deeppink;
 }
