@@ -401,11 +401,30 @@ h1 {
     .nav-section {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 25px;
         flex-direction: row-reverse;
+        margin-bottom: 15px;
+        height: 350px;
     }
     .header-title {
         display: flex;
         margin-right: 60px;
+    }
+    .main-menu-section {
+        display: flex;
+        flex-direction: column;
+        margin-right: 70px;
+    }
+    .menu-sec li {
+        padding-left: 10px;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 16px;
+        padding-right: 10px;
+    }
+    .menu-sec ul {
+        list-style: none;
+        padding-left: 90px;
+        margin-top: -77px;
+        display: revert;
     }
 }
