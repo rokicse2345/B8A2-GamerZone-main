@@ -3,6 +3,10 @@
     padding: 0;
 }
 /*header section start*/
+.nav-section {
+    display: flex;
+    height: 100px;
+}
 .header-title{
     display: flex;
     margin-left: 250px;
@@ -16,11 +20,6 @@
     font-size: 45px;
     margin-top: 20px;
     padding-left: 12px;
-}
-
-.nav-section {
-    display: flex;
-    height: 100px;
 }
 .main-menu-section {
     display: flex;
@@ -66,6 +65,7 @@
     padding-top: 6px;
 }
 
+/*banner section start*/
 .banner {
     background-image: url(../images/Group14.png);
     width: 100%;
@@ -392,4 +392,20 @@ h1 {
 }
 .copy{
     text-align: center;
+}
+
+/*Responsive start*/
+/*header section start*/
+@media screen and (max-width: 576px) {
+
+    .nav-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 25px;
+        flex-direction: row-reverse;
+    }
+    .header-title {
+        display: flex;
+        margin-right: 60px;
+    }
 }
