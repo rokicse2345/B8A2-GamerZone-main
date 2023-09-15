@@ -73,6 +73,9 @@
     background-repeat: no-repeat;
     display: flex;
 }
+.banner-content{
+    width: 100%;
+}
 .banner-left {
     width: 50%;
     padding: 148px 275px;
@@ -91,8 +94,9 @@ h1 {
     margin-bottom: 10px;
 }
 .banner-right img {
-    margin-right: 185px;
-    margin-top: -5px;
+    margin-left: 1009px;
+    margin-top: -561px;
+    width: 34%;
 }
 .sign-button {
     padding: 17px 39px;
@@ -399,32 +403,65 @@ h1 {
 @media screen and (max-width: 576px) {
 
     .nav-section {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row-reverse;
-        margin-bottom: 15px;
-        height: 350px;
-    }
-    .header-title {
-        display: flex;
-        margin-right: 60px;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 720px;
     }
     .main-menu-section {
         display: flex;
+        margin-left: -522px;
         flex-direction: column;
-        margin-right: 70px;
+        margin-top: 245px;
     }
-    .menu-sec li {
-        padding-left: 10px;
-        font-size: 24px;
-        font-weight: 600;
-        margin-top: 16px;
-        padding-right: 10px;
+    .header-title {
+        display: flex;
+        margin-left: 390px;
     }
     .menu-sec ul {
         list-style: none;
-        padding-left: 90px;
-        margin-top: -77px;
-        display: revert;
+        display: flex;
+        padding-left: 8px;
+        margin-top: 18px;
+        flex-direction: column;
+    }
+    .header-title h1 {
+        font-size: 175px;
+        margin-top: 20px;
+        padding-left: 12px;
+    }
+    .header-title img {
+        width: 280px;
+        height: 157px;
+        margin-top: 46px;
+    }
+    .menu-sec li {
+        padding-left: 10px;
+        font-size: 84px;
+        font-weight: 600;
+        margin-top: 16px;
+        padding-right: 22px;
+    }
+    .menu-img-section {
+        display: flex;
+        background-color: #E7E6E9;
+        border-radius: 15px;
+        width: 335px;
+        margin-top: 38px;
+        padding: 59px 188px;
+        margin-left: -215px;
+    }
+    .menu-img-section h3 {
+        padding-top: 11px;
+        font-size: 55px;
+        margin-left: -168px;
+        margin-right: -142px;
+    }
+    .menu-img-section img {
+        width: 121px;
+        display: inline;
+        height: 94px;
+        margin-left: 158px;
+        margin-right: -135px;
+        margin-top: -15px;
     }
 }
