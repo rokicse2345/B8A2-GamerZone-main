@@ -464,4 +464,23 @@ h1 {
         margin-right: -135px;
         margin-top: -15px;
     }
+
+    .banner {
+        background-image: url(../images/Group14.png);
+        width: 400%;
+        height: 675px;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .banner-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gamer-content {
+        width: 215%;
+    }
+
 }
